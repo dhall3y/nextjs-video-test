@@ -6,7 +6,7 @@ import { generateSignedUrl } from '../utils/signedUrl';
 
 const HomePage: React.FC = () => {
   const videoPaths = [
-    '98394773-31f7-40c5-8199-232417fd92d0/play_720p.mp4'
+    '98394773-31f7-40c5-8199-232417fd92d0/playlist.m3u8'
   ];
 
   const expiration = Math.floor(Date.now() / 1000) + 3600; // 1 hour from now
