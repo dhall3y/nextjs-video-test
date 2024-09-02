@@ -1,7 +1,5 @@
 import CryptoJS from 'crypto-js';
 
-
-
 const base64UrlEncode = (str: string): string => {
 	return str.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 };
