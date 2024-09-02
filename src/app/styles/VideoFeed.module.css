@@ -1,0 +1,35 @@
+.video {
+  aspect-ratio: 9 / 16;
+  position: relative;
+  border-radius: 1rem;
+  max-width: calc(-2.5rem + 100vw);
+  overflow: hidden;
+  scroll-snap-align: center;
+  height: 100vh;
+  /*height: calc(-2rem + 100vh);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_container {
+  display: grid;
+  place-items: center;
+  /*gap: 1rem;*/
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  max-height: calc(100vh);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.video_container::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.video::-webkit-media-controls-play-button {
+  display: none;
+}

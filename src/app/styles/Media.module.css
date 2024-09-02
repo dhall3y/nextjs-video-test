@@ -1,0 +1,8 @@
+.media {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  height: calc(100vh - 2rem);
+  cursor: pointer;
+  overflow: hidden;
+}
